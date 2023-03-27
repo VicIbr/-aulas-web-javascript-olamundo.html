@@ -1,0 +1,91 @@
+<script type="text/javascript">
+	opcao = prompt("-----MENU----- \n 1 - Encher pote de Café \n 2 - Encher pote de arroz \n 3 - Encher pote de Açúcar \n 4 - Encher pote de Biscoito \n 5 - Encher pote de Fubá \n 6 - Encher pote de Ração de Cachorro \n 7 - Encher pote de Farinha \n 8 - Encher pote de Feijão \n 99 - Sair do Sistema");
+	
+	let opcao, qtde=0;
+
+	const POTE_CAFE = 500, POTE_ARROZ = 5000, POTE_ACUCAR =5000, POTE_BISCOITO = 400, POTE_FUBA = 500, POTE_RACAO_CACHORRO = 10000, POTE_FARINHA = 1000, POTE_FEIJAO = 500;
+
+	var encheCafe = 0, encheArroz = 0, encheAcucar = 0, encheBiscoito = 0, encheFuba = 0, encheRacao = 0, encheFarinha = 0, encheFeijao = 0;
+
+	function enche_cafe(qtde)
+	{
+		alert("F cafe");
+	}
+
+	function enche_arroz(qtde)
+	{
+		alert("F arroz");
+	}
+
+	function enche_acucar(qtde)
+	{
+		alert("F acucar");
+	}
+
+	function enche_biscoito(qtde)
+	{
+		alert("F biscoito");
+	}
+
+	function enche_fuba(qtde)
+	{
+		alert("F fuba");
+	}
+
+	function enche_racao(qtde)
+	{
+		alert(" F racao");
+	}
+
+	function enche_farinha(qtde)
+	{
+		alert("F farinha");
+	}
+
+	function enche_feijao(qtde)
+	{
+		alert("F feijao");
+	}
+
+	menu_escolha();
+
+	function menu_escolha(opcao)
+	{
+		
+		switch(opcao)
+		{
+			case 1:
+				enche_cafe()
+				menu_escolha()
+				break;
+			case 2:
+				enche_arroz()
+				menu_escolha()
+				break;
+			case 3:
+				enche_acucar()
+				menu_escolha()
+				break;
+			case 4:
+				enche_biscoito()
+				menu_escolha()
+				break;
+			case 5:
+				enche_fuba()
+				menu_escolha()
+				break;
+			case 6:
+				enche_racao()
+				menu_escolha()
+				break;
+			case 7:
+				enche_farinha()
+				menu_escolha()
+				break;
+			case 8:
+				enche_feijao()
+				menu_escolha()
+				break;
+		}
+	}
+</script>.
